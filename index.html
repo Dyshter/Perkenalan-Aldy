@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stylish Profile Card</title>
+</head>
+<body>
+
+    <div class="profile-container">
+        <div class="img-container">
+            <img src="./images/img.jpg" alt="profile image">
+        </div>
+        <p class="info full-name">Aldy Septia Firnando</p>
+        <p class="info role">
+            <i class="fas fa-school"></i>
+            SMKN 2 Bojonegoro
+        </p>
+        <p class="info role">
+            <i class="fas fa-school"></i>
+            X-TKJ I
+        </p>
+        <p class="info place">
+            <i class="fas fa-home"></i>
+            Bojonegoro
+        </p>
+        
+
+
+        <div class="social-container">
+            <button class="whatsapp">
+                <a href="http://wa.me/+628817161138"><i class="fab fa-whatsapp"></i></a>
+            </button>
+            <button class="instagram">
+                <a href="https://instagram.com/firnando.9?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+            </button>
+            <button class="github">
+                <a href="#"><i class="fab fa-github"></i></a>
+            </button>
+        </div>
+
+        <button class="action" onclick="audio.play();">
+            <a href="#">MUSIK</a>
+        </button>
+        <footer>
+            <div class="container">
+                <span>Copyright &copy; 2023</span>
+                <span>Dyshter</span>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        const audio = new Audio();
+        audio.src = "lagu/dj.mp3";
+        
+    </script>
+</body>
+</html>
